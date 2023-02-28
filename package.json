@@ -1,0 +1,14 @@
+{
+  "name": "qa-izanlseco",
+  "version": "1.0.0",
+  "description": "Automated testing of www.izanlseco.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open --browser chrome"
+  },
+  "author": "Alex Gassó",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.6.0"
+  }
+}
