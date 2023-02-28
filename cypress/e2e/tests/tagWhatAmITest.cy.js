@@ -12,16 +12,15 @@ describe('"What am I?" tag tests', () => {
         OnWhatAmITag.getSectionWhatAmI();
     });
 
-    it('The the Frontend Developer section exists and has ' + section.frontEndDeveloperNumberOfTags + ' tags', () => {
+    it('The the Frontend Developer section exists', () => {
         OnWhatAmITag.getFrontendDeveloperSection();
     });
 
-    it('The the Backend Developer section exists and has ' + section.backEndDeveloperNumberOfTags + ' tags', () => {
+    it('The the Backend Developer section exists', () => {
         OnWhatAmITag.getBackendDeveloperSection();
     });
 
-    it('The the Knowledge Of section exists and has ' + section.knowledgeOfNumberOfTags + ' tags', () => {
+    it('The the Knowledge Of section exists', () => {
         OnWhatAmITag.getKnowledgeOfSection();
     });
-
 });

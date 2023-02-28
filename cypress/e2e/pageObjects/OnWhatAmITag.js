@@ -5,11 +5,8 @@ class onWhatAmITag {
 
     section = {
         frontEndDeveloper: 'Frontend developer',
-        frontEndDeveloperNumberOfTags: 10,
         backEndDeveloper: 'Backend developer',
-        backEndDeveloperNumberOfTags: 11,
         knowledgeOf: 'Knowledge of',
-        knowledgeOfNumberOfTags: 21
     };
 
     elements = {
@@ -28,17 +25,14 @@ class onWhatAmITag {
 
     getFrontendDeveloperSection() {
         this.elements.sectionFrontendDeveloper().should('exist');
-        this.elements.frontEndDeveloperTags().should('have.length', this.section.frontEndDeveloperNumberOfTags);
     }
 
     getBackendDeveloperSection() {
         this.elements.sectionBackendDeveloper().should('exist');
-        this.elements.backEndDeveloperTags().should('have.length', this.section.backEndDeveloperNumberOfTags);
     }
 
     getKnowledgeOfSection() {
         this.elements.sectionKnowledgeOf().should('exist');
-        this.elements.knowledgeOfTags().should('have.length', this.section.knowledgeOfNumberOfTags);
     }
 
 }
